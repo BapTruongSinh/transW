@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application' version '8.12.0'
+}
+android {
+    namespace 'vn.lopdich.app'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'vn.lopdich.app'
+        minSdk 26
+        targetSdk 35
+        versionCode 6
+        versionName '1.1.2'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
